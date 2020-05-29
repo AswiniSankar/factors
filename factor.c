@@ -31,37 +31,3 @@ for(k=2;k<=n;k++)
 printf("\n");
 return 0;
 }
-/*
-#include<stdio.h>
-#include<math.h>
-void factor(int);
-int main()
-{
-int n;
-printf("enter the number\n");
-scanf("%d",&n);
-factor(n);
-return 0;
-}
-void factor(n)
-{
-  int i;
-  while(n%2==0)
- {
-   printf("%d ",2);
-   n=n/2;
- }
-  if(n>0)
-  {
-  for(i=3;i<=sqrt(n);i=i+2)
-  {
-       while(n%i==0)
-       {
-      printf("%d ",i);
-        n=n/i;
-       }
-  }
-  if(n>2)
-     printf("%d ",n);
-  }
-}*/
